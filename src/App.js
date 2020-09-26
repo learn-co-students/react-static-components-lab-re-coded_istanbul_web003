@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import CatComponent from "./CatComponent"
 import GraceHopperQuoteComponent from "./GraceHopperQuoteComponent.js"
 import MouseComponent from "./MouseComponent"
+// import hoverEffect from "./hoverEffect"
 
 
 class App extends Component {
@@ -13,7 +14,7 @@ class App extends Component {
 				<CatComponent />
 				<GraceHopperQuoteComponent />
 				<MouseComponent />
-				<hoverEffect />
+				{/* <hoverEffect /> */}
 				{/* one more component missing */}
 			</div>
 		);
